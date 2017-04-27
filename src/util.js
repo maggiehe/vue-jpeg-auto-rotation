@@ -2,8 +2,8 @@ import imagesLoaded from 'imagesloaded'
 import EXIF from 'exif-js'
 
 /*
- * The orientation of the camera relative to the scene, 
- * when the image was captured. The relation of the '0th row' 
+ * The orientation of the camera relative to the scene,
+ * when the image was captured. The relation of the '0th row'
  * and '0th column' to visual position is shown as below.
  *
  * Value | 0th Row     | 0th Column
@@ -17,10 +17,10 @@ import EXIF from 'exif-js'
  *   7   | right side  | bottom
  *   8   | left side   | bottom
  *
- * For convenience, here is what the letter F would look like 
- * if it were tagged correctly and displayed by a program 
+ * For convenience, here is what the letter F would look like
+ * if it were tagged correctly and displayed by a program
  * that ignores the orientation tag (thus showing the stored image):
- * 
+ *
  * 1        2       3      4         5            6           7          8
  * 888888  888888      88  88      8888888888  88                  88  8888888888
  * 88          88      88  88      88  88      88  88          88  88      88  88

@@ -20,6 +20,11 @@ const config = {
   ] : [],
   module: {
     rules: [{
+      test: /.(js|vue)$/,
+      enforce: 'pre',
+      loader: 'eslint-loader',
+      exclude: /node_modules/
+    }, {
       test: /\.js$/,
       loader: 'babel-loader',
       include: path.resolve(__dirname, 'src')

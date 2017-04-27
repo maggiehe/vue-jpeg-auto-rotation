@@ -25,7 +25,7 @@
         if (angle.z % 180 !== 0) {
           const height = img.clientHeight
           const width = img.clientWidth
-          translate = `translate(${(height - width)/2}px, ${(width - height)/2}px)`
+          translate = `translate(${(height - width) / 2}px, ${(width - height) / 2}px)`
           holder.style['width'] = `${height}px`
           holder.style['height'] = `${width}px`
         }

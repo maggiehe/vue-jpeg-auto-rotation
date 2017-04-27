@@ -1,0 +1,14 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "extends": "vue",
+  "plugins": ["html"],
+  "rules": {
+    "space-before-function-paren": ["error", {
+      "anonymous": "always",
+      "named": "never",
+      "asyncArrow": "always"
+    }],
+    "semi": "off"
+  }
+}
